@@ -1,5 +1,5 @@
 kind: Pod
-api version: v1
+apiversion: v1
 metadata:
  name: multi-container
 spec:
