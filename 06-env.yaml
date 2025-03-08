@@ -1,0 +1,14 @@
+kind: Pod
+apiVersion: v1
+metadata:
+ name: env
+spec:
+ containers:
+  - name: nginx
+    image: nginx
+ env:
+ - name: Harini
+   tech: Devops
+ - name: Kubernetes
+   topic: env
+   
