@@ -3,8 +3,9 @@ apiVersion: v1
 metadata:
  name: multi-container
 spec:
- - name: Nginx
-   image: nginx
- - name: almalinux
-   image: almalinux:9
+ containers:
+  - name: Nginx
+    image: nginx
+  - name: almalinux
+    image: almalinux:9
 
