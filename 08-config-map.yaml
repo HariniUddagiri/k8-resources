@@ -1,0 +1,10 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+ name: config
+containers:
+ - name: nginx
+   image: nginx
+   data:
+    name: Kubernetes
+    topic: conf
