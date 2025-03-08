@@ -6,9 +6,9 @@ spec:
  containers:
   - name: nginx
     image: nginx
-env:
-  - name: Harini
-    tech: Devops
-  - name: Kubernetes
-    topic: devops
+    env:
+    - name: Harini
+      value: Devops
+    - name: Kubernetes
+      value: devops
    
