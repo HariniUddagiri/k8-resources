@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: harini0107/nginx:1.0
+        image: harini0107/from:1.0.0
         ports:
         - containerPort: 80
 ---
